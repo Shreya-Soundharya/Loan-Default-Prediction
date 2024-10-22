@@ -1,8 +1,8 @@
-**Loan Default Prediction Model Evaluation**
+# **Loan Default Prediction Model Evaluation**
 
 This project evaluates different machine learning models for predicting loan defaults using a dataset with several features related to loan applicants. The models compared include Random Forest, XGBoost, Support Vector Machine (SVM), Neural Network, Naive Bayes, and Logistic Regression.
 
-**Project Overview**
+## **Project Overview**
 
 This project aims to:
 
@@ -25,12 +25,12 @@ This project aims to:
 4. Evaluate model performance: Metrics like Accuracy, Precision, Recall, F1-Score, and Confusion Matrix are used to evaluate model performance.
 Display results: Results are visualized using confusion matrix heatmaps and bar charts for performance comparison.
 
-**Files used**
+## **Files used**
 
 Loan_default.csv: Dataset containing loan applicant information.
 model_evaluation.py: The Python script for model training, evaluation, and visualization.
 
-**Requirements**
+## **Requirements**
 
 To run this project, you need to have the following Python libraries installed:
 
@@ -46,7 +46,7 @@ matplotlib
 
 seaborn
 
-**How to run:**
+## **How to run:**
 
 Clone the repository:
 
@@ -62,11 +62,28 @@ python model_evaluation.py
 
 View the results of the model evaluation, including confusion matrices and bar plots comparing metrics like Accuracy, Precision, Recall, and F1-Score.
 
-**Model Performance**
+## **Model Performance**
 
 After running the evaluation, the best model based on the F1-Score will be displayed. All models' performance will be shown using bar plots and confusion matrix heatmaps in a 2x3 grid.
 
 **Contributions**
 
 Shreya Soundharya, Dhanush, Harshathan, Rhithik Rhagav
+
+## **Source of Dataset**
+https://www.kaggle.com/datasets/nikhil1e9/loan-default
+
+## **Output**
+
+Split: 80-20
+70% dataset used
+
+![image](https://github.com/user-attachments/assets/5a4eedc5-4869-4642-8da9-f4585b619d1c)
+
+![image](https://github.com/user-attachments/assets/1e5382e7-b143-4a19-a82f-440f61d3f730)
+
+![image](https://github.com/user-attachments/assets/fa25d703-1283-48f6-93c5-927772a7df0c)
+
+
+
 
